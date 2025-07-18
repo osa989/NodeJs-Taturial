@@ -1,11 +1,7 @@
-// console.log(__dirname);
-// console.log(__filename);
-// setInterval(()=>{
-//     console.log("Hello World");
-// }, 1000); // prints "Hello World" every second
+//Modules
+import { sayHi } from './utils.js';
+import { john, osama } from './names.js';
 
-
-
-
-
-
+sayHi('Osama')
+sayHi(john)
+sayHi(osama)
